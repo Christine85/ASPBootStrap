@@ -1,0 +1,30 @@
+﻿body {
+}
+
+/*.left {
+    background-color: chartreuse;
+    float: left;
+    padding: 10px;
+    
+}*/
+
+div.footer {
+    background-color: black;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 20px;
+}
+
+div.header {
+   text-align:center; 
+   
+}
+
+div.main {
+    /*width: 200px;
+    margin-top: 20px;
+    margin-left: 70px;
+    float: left;*/
+
+}

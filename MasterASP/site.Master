@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="site.master.cs" Inherits="MasterASP.site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <script src="scripts/jquery-1.9.1.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Style.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <%--        HEADER--%>
+        <div class="header">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderHeader" runat="server">
+                <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="#">WebSiteName</a>
+                        </div>
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="./Main.aspx">Home</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contacts<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="./AddContact.aspx">Add</a></li>
+                                    <li><a href="./UpdateContact.aspx">Update</a></li>
+                                    <li><a href="./DeleteContact.aspx">Delete</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <%--                    MAIN--%>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderMain" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+
+
+        <%--        FOOTER--%>
+        <div class="footer">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderFooter" runat="server">
+                Copyright © Chrissy.com
+            </asp:ContentPlaceHolder>
+        </div>
+
+    </form>
+</body>
+</html>
