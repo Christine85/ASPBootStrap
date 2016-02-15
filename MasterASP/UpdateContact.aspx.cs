@@ -36,7 +36,7 @@ namespace MasterASP
                     string lastname = myRead["lastname"].ToString();
                     contactList.Add(new Person(firstname, lastname, id));
                 }
-
+                
             }
 
             catch (Exception ex)
@@ -75,7 +75,7 @@ namespace MasterASP
                 {
                     lBoxContacts.SelectedIndex = selIndex - 1;
                 }
-            }
+            }          
         }
 
         protected void lBoxContacts_SelectedIndexChanged(object sender, EventArgs e)

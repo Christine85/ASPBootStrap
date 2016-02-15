@@ -21,7 +21,7 @@ namespace MasterASP
         }
         protected void btnAdd_Click(object sender, EventArgs e)
         {
-            if (txtBoxFirstName.Text != "" && txtBoxLastName.Text != "")
+            if (txtBoxFirstName.Text != "x" && txtBoxLastName.Text != "")
             {
                 try
                 {

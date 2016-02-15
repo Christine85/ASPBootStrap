@@ -48,7 +48,7 @@ namespace MasterASP
             }
                        
             string info2 = "<div class=\"container\"><table class=\"table table-striped\"id=\"myTable\">";
-            info2 += "<thead><tr>";
+            info2 += "<\thead><\tr>";
             info2 += "<th>ID</th>";
             info2 += "<th>Firstname</th>";
             info2 += "<th>Lastname</th>";
