@@ -115,6 +115,7 @@
     <Content Include="AddContact.aspx" />
     <Content Include="UpdateContact.aspx" />
     <Content Include="DeleteContact.aspx" />
+    <Content Include="DB\Contacts2.bak" />
     <None Include="scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
@@ -196,6 +197,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Dll\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
